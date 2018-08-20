@@ -1,17 +1,18 @@
-import Augmented from "augmentedjs-next";
+import { Application as NextApplication } from "next-core-application";
+import { Stack } from "next-core-structures";
 
 /**
  * Presentation Application - extension of Augmented.Application</br/>
  * Add registration of mediators to the application, breadcrumbs, and stylesheet registration
  * @extends Augmented.Application
  */
-class Application extends Augmented.Application {
+class Application extends NextApplication {
   constructor(name) {
     super(name);
     this._router = null;
     this._mediators = [];
     this._stylesheets = [];
-    this._breadcrumb = new Augmented.Utility.Stack();
+    this._breadcrumb = new Stack();
   };
 
   /**
