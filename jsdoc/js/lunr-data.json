@@ -59,15 +59,43 @@
           "list:class"
         ],
         "Application.html": [
+          "add",
+          "allow",
+          "api",
+          "app",
           "applic",
           "augmented.applicationadd",
           "breadcrumb",
+          "built",
           "class",
+          "contain",
+          "control",
+          "datastor",
           "extens",
+          "few",
+          "flow",
+          "global",
+          "includ",
+          "init",
+          "item",
+          "kick",
           "mediat",
+          "mediators.appl",
+          "method",
+          "navig",
           "present",
+          "propertymedi",
           "registr",
-          "stylesheet"
+          "registrationstylesheetsbreadcrumb",
+          "registrationth",
+          "rout",
+          "router",
+          "start",
+          "starting.appl",
+          "stop",
+          "stylesheet",
+          "track",
+          "well).a"
         ],
         "Application.html#router": [
           "applic",
@@ -86,16 +114,25 @@
           "member",
           "stylesheet"
         ],
+        "Application.html#breadcrumbs": [
+          "application#breadcrumb",
+          "breadcrumb",
+          "member"
+        ],
         "Application.html#title": [
           "application#titl",
           "member",
           "titl",
           "window"
         ],
-        "Application.html#breadcrumbs": [
-          "application#breadcrumb",
-          "breadcrumb",
-          "member"
+        "Application.html#initialize": [
+          "add",
+          "application#initi",
+          "event",
+          "function",
+          "initi",
+          "regist",
+          "stylesheet"
         ],
         "Application.html#registerMediator": [
           "application#registermedi",
@@ -161,15 +198,6 @@
           "function",
           "get",
           "getcurrentbreadcrumb"
-        ],
-        "Application.html#initialize": [
-          "add",
-          "application#initi",
-          "event",
-          "function",
-          "initi",
-          "regist",
-          "stylesheet"
         ]
       },
       "length": 18
@@ -235,7 +263,7 @@
                                                         "docs": {
                                                           "Application.html": {
                                                             "ref": "Application.html",
-                                                            "tf": 5
+                                                            "tf": 1.1904761904761905
                                                           }
                                                         }
                                                       }
@@ -261,10 +289,55 @@
               }
             }
           },
+          "d": {
+            "docs": {},
+            "d": {
+              "docs": {
+                "Application.html": {
+                  "ref": "Application.html",
+                  "tf": 1.1904761904761905
+                },
+                "Application.html#initialize": {
+                  "ref": "Application.html#initialize",
+                  "tf": 10
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "w": {
+                  "docs": {
+                    "Application.html": {
+                      "ref": "Application.html",
+                      "tf": 1.1904761904761905
+                    }
+                  }
+                }
+              }
+            }
+          },
           "p": {
             "docs": {},
+            "i": {
+              "docs": {
+                "Application.html": {
+                  "ref": "Application.html",
+                  "tf": 1.1904761904761905
+                }
+              }
+            },
             "p": {
-              "docs": {},
+              "docs": {
+                "Application.html": {
+                  "ref": "Application.html",
+                  "tf": 2.380952380952381
+                }
+              },
               "l": {
                 "docs": {},
                 "i": {
@@ -273,7 +346,7 @@
                     "docs": {
                       "Application.html": {
                         "ref": "Application.html",
-                        "tf": 1910
+                        "tf": 1905.952380952381
                       },
                       "Application.html#router": {
                         "ref": "Application.html#router",
@@ -546,23 +619,6 @@
                                     }
                                   }
                                 },
-                                "t": {
-                                  "docs": {},
-                                  "i": {
-                                    "docs": {},
-                                    "t": {
-                                      "docs": {},
-                                      "l": {
-                                        "docs": {
-                                          "Application.html#title": {
-                                            "ref": "Application.html#title",
-                                            "tf": 1150
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
                                 "b": {
                                   "docs": {},
                                   "r": {
@@ -591,6 +647,43 @@
                                                   }
                                                 }
                                               }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "t": {
+                                  "docs": {},
+                                  "i": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {},
+                                      "l": {
+                                        "docs": {
+                                          "Application.html#title": {
+                                            "ref": "Application.html#title",
+                                            "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "i": {
+                                  "docs": {},
+                                  "n": {
+                                    "docs": {},
+                                    "i": {
+                                      "docs": {},
+                                      "t": {
+                                        "docs": {},
+                                        "i": {
+                                          "docs": {
+                                            "Application.html#initialize": {
+                                              "ref": "Application.html#initialize",
+                                              "tf": 1150
                                             }
                                           }
                                         }
@@ -797,26 +890,6 @@
                                       }
                                     }
                                   }
-                                },
-                                "i": {
-                                  "docs": {},
-                                  "n": {
-                                    "docs": {},
-                                    "i": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {},
-                                        "i": {
-                                          "docs": {
-                                            "Application.html#initialize": {
-                                              "ref": "Application.html#initialize",
-                                              "tf": 1150
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
                                 }
                               }
                             }
@@ -884,17 +957,6 @@
                       }
                     }
                   }
-                }
-              }
-            }
-          },
-          "d": {
-            "docs": {},
-            "d": {
-              "docs": {
-                "Application.html#initialize": {
-                  "ref": "Application.html#initialize",
-                  "tf": 10
                 }
               }
             }
@@ -1051,6 +1113,32 @@
                 }
               }
             }
+          },
+          "a": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "r": {
+                        "docs": {
+                          "Application.html": {
+                            "ref": "Application.html",
+                            "tf": 1.1904761904761905
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "i": {
@@ -1071,16 +1159,52 @@
                 }
               }
             },
+            "c": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "Application.html": {
+                        "ref": "Application.html",
+                        "tf": 1.1904761904761905
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "i": {
               "docs": {},
               "t": {
-                "docs": {},
+                "docs": {
+                  "Application.html": {
+                    "ref": "Application.html",
+                    "tf": 1.1904761904761905
+                  }
+                },
                 "i": {
                   "docs": {
                     "Application.html#initialize": {
                       "ref": "Application.html#initialize",
                       "tf": 760
                     }
+                  }
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "m": {
+                "docs": {
+                  "Application.html": {
+                    "ref": "Application.html",
+                    "tf": 1.1904761904761905
                   }
                 }
               }
@@ -1105,6 +1229,20 @@
           },
           "a": {
             "docs": {},
+            "v": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "g": {
+                  "docs": {
+                    "Application.html": {
+                      "ref": "Application.html",
+                      "tf": 1.1904761904761905
+                    }
+                  }
+                }
+              }
+            },
             "m": {
               "docs": {},
               "e": {
@@ -1138,7 +1276,7 @@
                         },
                         "Application.html": {
                           "ref": "Application.html",
-                          "tf": 5
+                          "tf": 1.1904761904761905
                         }
                       }
                     }
@@ -1156,6 +1294,26 @@
                     "docs": {},
                     "t": {
                       "docs": {},
+                      "y": {
+                        "docs": {},
+                        "m": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "d": {
+                              "docs": {},
+                              "i": {
+                                "docs": {
+                                  "Application.html": {
+                                    "ref": "Application.html",
+                                    "tf": 1.1904761904761905
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
                       "i": {
                         "docs": {
                           "Application.html#router": {
@@ -1197,6 +1355,10 @@
                   "docs": {},
                   "t": {
                     "docs": {
+                      "Application.html#initialize": {
+                        "ref": "Application.html#initialize",
+                        "tf": 10
+                      },
                       "Application.html#registerMediator": {
                         "ref": "Application.html#registerMediator",
                         "tf": 25
@@ -1212,17 +1374,107 @@
                       "Application.html#replaceStylesheets": {
                         "ref": "Application.html#replaceStylesheets",
                         "tf": 8.333333333333332
-                      },
-                      "Application.html#initialize": {
-                        "ref": "Application.html#initialize",
-                        "tf": 10
                       }
                     },
                     "r": {
                       "docs": {
                         "Application.html": {
                           "ref": "Application.html",
-                          "tf": 10
+                          "tf": 1.1904761904761905
+                        }
+                      },
+                      "a": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          "i": {
+                            "docs": {},
+                            "o": {
+                              "docs": {},
+                              "n": {
+                                "docs": {},
+                                "s": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {},
+                                    "y": {
+                                      "docs": {},
+                                      "l": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "s": {
+                                            "docs": {},
+                                            "h": {
+                                              "docs": {},
+                                              "e": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {},
+                                                    "s": {
+                                                      "docs": {},
+                                                      "b": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            "a": {
+                                                              "docs": {},
+                                                              "d": {
+                                                                "docs": {},
+                                                                "c": {
+                                                                  "docs": {},
+                                                                  "r": {
+                                                                    "docs": {},
+                                                                    "u": {
+                                                                      "docs": {},
+                                                                      "m": {
+                                                                        "docs": {},
+                                                                        "b": {
+                                                                          "docs": {
+                                                                            "Application.html": {
+                                                                              "ref": "Application.html",
+                                                                              "tf": 1.1904761904761905
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "t": {
+                                  "docs": {},
+                                  "h": {
+                                    "docs": {
+                                      "Application.html": {
+                                        "ref": "Application.html",
+                                        "tf": 1.1904761904761905
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
                         }
                       }
                     },
@@ -1349,11 +1601,20 @@
             "u": {
               "docs": {},
               "t": {
-                "docs": {},
+                "docs": {
+                  "Application.html": {
+                    "ref": "Application.html",
+                    "tf": 1.1904761904761905
+                  }
+                },
                 "e": {
                   "docs": {},
                   "r": {
                     "docs": {
+                      "Application.html": {
+                        "ref": "Application.html",
+                        "tf": 1.1904761904761905
+                      },
                       "Application.html#router": {
                         "ref": "Application.html#router",
                         "tf": 766.6666666666666
@@ -1389,6 +1650,60 @@
           },
           "t": {
             "docs": {},
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "Application.html": {
+                      "ref": "Application.html",
+                      "tf": 1.1904761904761905
+                    }
+                  },
+                  "i": {
+                    "docs": {},
+                    "n": {
+                      "docs": {},
+                      "g": {
+                        "docs": {},
+                        ".": {
+                          "docs": {},
+                          "a": {
+                            "docs": {},
+                            "p": {
+                              "docs": {},
+                              "p": {
+                                "docs": {},
+                                "l": {
+                                  "docs": {
+                                    "Application.html": {
+                                      "ref": "Application.html",
+                                      "tf": 1.1904761904761905
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "p": {
+                "docs": {
+                  "Application.html": {
+                    "ref": "Application.html",
+                    "tf": 1.1904761904761905
+                  }
+                }
+              }
+            },
             "y": {
               "docs": {},
               "l": {
@@ -1407,11 +1722,15 @@
                             "docs": {
                               "Application.html": {
                                 "ref": "Application.html",
-                                "tf": 5
+                                "tf": 1.1904761904761905
                               },
                               "Application.html#stylesheets": {
                                 "ref": "Application.html#stylesheets",
                                 "tf": 800
+                              },
+                              "Application.html#initialize": {
+                                "ref": "Application.html#initialize",
+                                "tf": 10
                               },
                               "Application.html#registerStylesheet": {
                                 "ref": "Application.html#registerStylesheet",
@@ -1428,10 +1747,6 @@
                               "Application.html#replaceStylesheets": {
                                 "ref": "Application.html#replaceStylesheets",
                                 "tf": 16.666666666666664
-                              },
-                              "Application.html#initialize": {
-                                "ref": "Application.html#initialize",
-                                "tf": 10
                               }
                             }
                           }
@@ -1526,6 +1841,10 @@
                       "global.html": {
                         "ref": "global.html",
                         "tf": 2045
+                      },
+                      "Application.html": {
+                        "ref": "Application.html",
+                        "tf": 1.1904761904761905
                       }
                     }
                   }
@@ -1624,6 +1943,43 @@
               }
             }
           },
+          "o": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "n": {
+                      "docs": {
+                        "Application.html": {
+                          "ref": "Application.html",
+                          "tf": 2.380952380952381
+                        }
+                      }
+                    }
+                  }
+                },
+                "r": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "l": {
+                      "docs": {
+                        "Application.html": {
+                          "ref": "Application.html",
+                          "tf": 1.1904761904761905
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "u": {
             "docs": {},
             "r": {
@@ -1714,7 +2070,7 @@
                             "docs": {
                               "Application.html": {
                                 "ref": "Application.html",
-                                "tf": 5
+                                "tf": 1.1904761904761905
                               },
                               "Application.html#breadcrumbs": {
                                 "ref": "Application.html#breadcrumbs",
@@ -1737,6 +2093,23 @@
                 }
               }
             }
+          },
+          "u": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "Application.html": {
+                      "ref": "Application.html",
+                      "tf": 1.1904761904761905
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "e": {
@@ -1753,7 +2126,7 @@
                     "docs": {
                       "Application.html": {
                         "ref": "Application.html",
-                        "tf": 5
+                        "tf": 1.1904761904761905
                       }
                     }
                   }
@@ -1779,116 +2152,33 @@
             }
           }
         },
-        "m": {
+        "f": {
           "docs": {},
           "e": {
             "docs": {},
-            "d": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "Application.html": {
-                        "ref": "Application.html",
-                        "tf": 5
-                      },
-                      "Application.html#mediators": {
-                        "ref": "Application.html#mediators",
-                        "tf": 800
-                      },
-                      "Application.html#registerMediator": {
-                        "ref": "Application.html#registerMediator",
-                        "tf": 75
-                      },
-                      "Application.html#deregisterMediator": {
-                        "ref": "Application.html#deregisterMediator",
-                        "tf": 75
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "m": {
-              "docs": {},
-              "b": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "Application.html#router": {
-                        "ref": "Application.html#router",
-                        "tf": 110
-                      },
-                      "Application.html#mediators": {
-                        "ref": "Application.html#mediators",
-                        "tf": 110
-                      },
-                      "Application.html#stylesheets": {
-                        "ref": "Application.html#stylesheets",
-                        "tf": 110
-                      },
-                      "Application.html#title": {
-                        "ref": "Application.html#title",
-                        "tf": 110
-                      },
-                      "Application.html#breadcrumbs": {
-                        "ref": "Application.html#breadcrumbs",
-                        "tf": 110
-                      }
-                    }
-                  }
+            "w": {
+              "docs": {
+                "Application.html": {
+                  "ref": "Application.html",
+                  "tf": 1.1904761904761905
                 }
               }
             }
-          }
-        },
-        "t": {
-          "docs": {},
-          "i": {
+          },
+          "l": {
             "docs": {},
-            "t": {
+            "o": {
               "docs": {},
-              "l": {
+              "w": {
                 "docs": {
-                  "Application.html#title": {
-                    "ref": "Application.html#title",
-                    "tf": 775
+                  "Application.html": {
+                    "ref": "Application.html",
+                    "tf": 1.1904761904761905
                   }
                 }
               }
             }
-          }
-        },
-        "w": {
-          "docs": {},
-          "i": {
-            "docs": {},
-            "n": {
-              "docs": {},
-              "d": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "w": {
-                    "docs": {
-                      "Application.html#title": {
-                        "ref": "Application.html#title",
-                        "tf": 25
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "f": {
-          "docs": {},
+          },
           "u": {
             "docs": {},
             "n": {
@@ -1903,6 +2193,10 @@
                       "docs": {},
                       "n": {
                         "docs": {
+                          "Application.html#initialize": {
+                            "ref": "Application.html#initialize",
+                            "tf": 110
+                          },
                           "Application.html#registerMediator": {
                             "ref": "Application.html#registerMediator",
                             "tf": 110
@@ -1934,12 +2228,219 @@
                           "Application.html#getCurrentBreadcrumb": {
                             "ref": "Application.html#getCurrentBreadcrumb",
                             "tf": 110
-                          },
-                          "Application.html#initialize": {
-                            "ref": "Application.html#initialize",
-                            "tf": 110
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "k": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "k": {
+                "docs": {
+                  "Application.html": {
+                    "ref": "Application.html",
+                    "tf": 1.1904761904761905
+                  }
+                }
+              }
+            }
+          }
+        },
+        "m": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "Application.html": {
+                        "ref": "Application.html",
+                        "tf": 1.1904761904761905
+                      },
+                      "Application.html#mediators": {
+                        "ref": "Application.html#mediators",
+                        "tf": 800
+                      },
+                      "Application.html#registerMediator": {
+                        "ref": "Application.html#registerMediator",
+                        "tf": 75
+                      },
+                      "Application.html#deregisterMediator": {
+                        "ref": "Application.html#deregisterMediator",
+                        "tf": 75
+                      }
+                    },
+                    "o": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "s": {
+                          "docs": {},
+                          ".": {
+                            "docs": {},
+                            "a": {
+                              "docs": {},
+                              "p": {
+                                "docs": {},
+                                "p": {
+                                  "docs": {},
+                                  "l": {
+                                    "docs": {
+                                      "Application.html": {
+                                        "ref": "Application.html",
+                                        "tf": 1.1904761904761905
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "h": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "Application.html": {
+                        "ref": "Application.html",
+                        "tf": 1.1904761904761905
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "Application.html#router": {
+                        "ref": "Application.html#router",
+                        "tf": 110
+                      },
+                      "Application.html#mediators": {
+                        "ref": "Application.html#mediators",
+                        "tf": 110
+                      },
+                      "Application.html#stylesheets": {
+                        "ref": "Application.html#stylesheets",
+                        "tf": 110
+                      },
+                      "Application.html#breadcrumbs": {
+                        "ref": "Application.html#breadcrumbs",
+                        "tf": 110
+                      },
+                      "Application.html#title": {
+                        "ref": "Application.html#title",
+                        "tf": 110
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t": {
+          "docs": {},
+          "r": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "k": {
+                  "docs": {
+                    "Application.html": {
+                      "ref": "Application.html",
+                      "tf": 1.1904761904761905
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "Application.html#title": {
+                    "ref": "Application.html#title",
+                    "tf": 775
+                  }
+                }
+              }
+            }
+          }
+        },
+        "w": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                ")": {
+                  "docs": {},
+                  ".": {
+                    "docs": {},
+                    "a": {
+                      "docs": {
+                        "Application.html": {
+                          "ref": "Application.html",
+                          "tf": 1.1904761904761905
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "d": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "w": {
+                    "docs": {
+                      "Application.html#title": {
+                        "ref": "Application.html#title",
+                        "tf": 25
                       }
                     }
                   }
@@ -1963,10 +2464,13 @@
           }
         }
       },
-      "length": 96
+      "length": 124
     },
     "corpusTokens": [
       "add",
+      "allow",
+      "api",
+      "app",
       "applic",
       "application#attachstylesheet",
       "application#breadcrumb",
@@ -1987,8 +2491,12 @@
       "augmented.applicationadd",
       "augmented.j",
       "breadcrumb",
+      "built",
       "class",
+      "contain",
+      "control",
       "current",
+      "datastor",
       "deregist",
       "deregistermedi",
       "deregisterstylesheet",
@@ -1997,34 +2505,52 @@
       "dom",
       "event",
       "extens",
+      "few",
+      "flow",
       "function",
       "get",
       "getcurrentbreadcrumb",
       "global",
+      "includ",
       "index",
+      "init",
       "initi",
+      "item",
+      "kick",
       "list",
       "list:class",
       "mediat",
+      "mediators.appl",
       "member",
+      "method",
       "name",
+      "navig",
       "next",
       "present",
       "properti",
+      "propertymedi",
       "readm",
       "regist",
       "registermedi",
       "registerstylesheet",
       "registr",
+      "registrationstylesheetsbreadcrumb",
+      "registrationth",
       "replac",
       "replacestylesheet",
+      "rout",
       "router",
       "set",
       "setcurrentbreadcrumb",
       "simpli",
+      "start",
+      "starting.appl",
+      "stop",
       "stylesheet",
       "titl",
+      "track",
       "uri",
+      "well).a",
       "window"
     ],
     "pipeline": [
@@ -2075,7 +2601,7 @@
       "name": "Application",
       "tags": "Application",
       "summary": "",
-      "description": "Presentation Application - extension of Augmented.ApplicationAdd registration of mediators to the application, breadcrumbs, and stylesheet registration",
+      "description": "Presentation Application - extension of Augmented.ApplicationAdd registration of mediators to the application, breadcrumbs, and stylesheet registrationThe Application is a container for the 'app'. This allows control of the flow application init, routing, and starting.Applications can include API to add app-globals like datastores, and mediators.Applications contain a few built-in items: A start method to kick off your application (stop as well).A router propertymediator registrationstylesheetsbreadcrumbs for tracking navigations",
       "body": ""
     },
     "Application.html#router": {
@@ -2108,6 +2634,16 @@
       "summary": "",
       "description": "All Stylesheets"
     },
+    "Application.html#breadcrumbs": {
+      "id": "Application.html#breadcrumbs",
+      "kind": "member",
+      "title": "breadcrumbs",
+      "longname": "Application#breadcrumbs",
+      "name": "breadcrumbs",
+      "tags": "Application#breadcrumbs breadcrumbs",
+      "summary": "",
+      "description": "The breadcrumbs"
+    },
     "Application.html#title": {
       "id": "Application.html#title",
       "kind": "member",
@@ -2118,15 +2654,15 @@
       "summary": "",
       "description": "The Window title"
     },
-    "Application.html#breadcrumbs": {
-      "id": "Application.html#breadcrumbs",
-      "kind": "member",
-      "title": "breadcrumbs",
-      "longname": "Application#breadcrumbs",
-      "name": "breadcrumbs",
-      "tags": "Application#breadcrumbs breadcrumbs",
+    "Application.html#initialize": {
+      "id": "Application.html#initialize",
+      "kind": "function",
+      "title": "initialize()",
+      "longname": "Application#initialize",
+      "name": "initialize",
+      "tags": "Application#initialize initialize",
       "summary": "",
-      "description": "The breadcrumbs"
+      "description": "Initialize Event - adds any stylesheets registered"
     },
     "Application.html#registerMediator": {
       "id": "Application.html#registerMediator",
@@ -2207,16 +2743,6 @@
       "tags": "Application#getCurrentBreadcrumb getCurrentBreadcrumb",
       "summary": "",
       "description": "Gets the current breadcrumb"
-    },
-    "Application.html#initialize": {
-      "id": "Application.html#initialize",
-      "kind": "function",
-      "title": "initialize()",
-      "longname": "Application#initialize",
-      "name": "initialize",
-      "tags": "Application#initialize initialize",
-      "summary": "",
-      "description": "Initialize Event - adds any stylesheets registered"
     }
   }
 }

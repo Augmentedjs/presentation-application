@@ -4,6 +4,16 @@ import { Stack } from "next-core-structures";
 /**
  * Presentation Application - extension of Augmented.Application</br/>
  * Add registration of mediators to the application, breadcrumbs, and stylesheet registration
+ * The Application is a container for the 'app'. This allows control of the flow application init, routing, and starting.
+ * Applications can include API to add app-globals like datastores, and mediators.
+ * Applications contain a few built-in items:
+ * <ul>
+ * <li>A start method to kick off your application (stop as well).</li>
+ * <li>A router property</li>
+ * <li>mediator registration</li>
+ * <li>stylesheets</li>
+ * <li>breadcrumbs for tracking navigations</li>
+ * </ul>
  * @extends Augmented.Application
  */
 class Application extends NextApplication {
