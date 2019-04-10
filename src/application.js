@@ -1,5 +1,10 @@
 import { Application as NextApplication } from "next-core-application";
+import serialize from "presentation-router";
 import { Stack } from "next-core-structures";
+
+const getPlace = (where, options) => {
+  return (options) ? `${where}?${serialize(options)}` : where;
+};
 
 /**
  * Presentation Application - extension of Augmented.Application</br/>
@@ -24,6 +29,32 @@ class Application extends NextApplication {
     this._stylesheets = [];
     this._breadcrumb = new Stack();
   };
+  /**
+   * Navigate using the router
+   * @param {string} where Where to go
+   * @param {Object} options Any options to pass
+   */
+  navigate(where, options) {
+    if (this._router && where) {
+      return this._router.navigate(getPlace(where, options), { "trigger": true });
+    } else {
+      console.warn("Can't navigate to nowhere.");
+    }
+    return null;
+  };
+  /**
+   * Launch using the router
+   * @param {string} where Where to go
+   * @param {Object} options Any options to pass
+   */
+  launch(where, options) {
+    if (this._router && where) {
+      return this._router.navigate(getPlace(where, options), { "trigger": false });
+    } else {
+      console.warn("Can't launch nowhere.");
+    }
+    return null;
+  };
 
   /**
    * Initialize Event - adds any stylesheets registered
@@ -32,10 +63,8 @@ class Application extends NextApplication {
     if (this._stylesheets && this._stylesheets.length > 0) {
       this.attachStylesheets();
     }
-    const router = this.router;
-    if (router) {
-      //console.log("starting history");
-      router.startHistory();
+    if (this._router) {
+      this._router.startHistory();
     }
     return true;
   };

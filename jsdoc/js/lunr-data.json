@@ -125,6 +125,22 @@
           "titl",
           "window"
         ],
+        "Application.html#navigate": [
+          "application#navig",
+          "function",
+          "navig",
+          "option",
+          "router",
+          "us"
+        ],
+        "Application.html#launch": [
+          "application#launch",
+          "function",
+          "launch",
+          "option",
+          "router",
+          "us"
+        ],
         "Application.html#initialize": [
           "add",
           "application#initi",
@@ -200,7 +216,7 @@
           "getcurrentbreadcrumb"
         ]
       },
-      "length": 18
+      "length": 20
     },
     "tokenStore": {
       "root": {
@@ -665,6 +681,49 @@
                                           "Application.html#title": {
                                             "ref": "Application.html#title",
                                             "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "n": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "v": {
+                                      "docs": {},
+                                      "i": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {
+                                            "Application.html#navigate": {
+                                              "ref": "Application.html#navigate",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "l": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "u": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "c": {
+                                          "docs": {},
+                                          "h": {
+                                            "docs": {
+                                              "Application.html#launch": {
+                                                "ref": "Application.html#launch",
+                                                "tf": 1150
+                                              }
+                                            }
                                           }
                                         }
                                       }
@@ -1238,6 +1297,10 @@
                     "Application.html": {
                       "ref": "Application.html",
                       "tf": 1.1904761904761905
+                    },
+                    "Application.html#navigate": {
+                      "ref": "Application.html#navigate",
+                      "tf": 716.6666666666666
                     }
                   }
                 }
@@ -1618,6 +1681,14 @@
                       "Application.html#router": {
                         "ref": "Application.html#router",
                         "tf": 766.6666666666666
+                      },
+                      "Application.html#navigate": {
+                        "ref": "Application.html#navigate",
+                        "tf": 16.666666666666664
+                      },
+                      "Application.html#launch": {
+                        "ref": "Application.html#launch",
+                        "tf": 16.666666666666664
                       }
                     }
                   }
@@ -2046,6 +2117,26 @@
                 }
               }
             }
+          },
+          "a": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "Application.html#launch": {
+                        "ref": "Application.html#launch",
+                        "tf": 716.6666666666666
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "b": {
@@ -2193,6 +2284,14 @@
                       "docs": {},
                       "n": {
                         "docs": {
+                          "Application.html#navigate": {
+                            "ref": "Application.html#navigate",
+                            "tf": 110
+                          },
+                          "Application.html#launch": {
+                            "ref": "Application.html#launch",
+                            "tf": 110
+                          },
                           "Application.html#initialize": {
                             "ref": "Application.html#initialize",
                             "tf": 110
@@ -2449,8 +2548,47 @@
             }
           }
         },
+        "o": {
+          "docs": {},
+          "p": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "Application.html#navigate": {
+                        "ref": "Application.html#navigate",
+                        "tf": 50
+                      },
+                      "Application.html#launch": {
+                        "ref": "Application.html#launch",
+                        "tf": 50
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "u": {
           "docs": {},
+          "s": {
+            "docs": {
+              "Application.html#navigate": {
+                "ref": "Application.html#navigate",
+                "tf": 16.666666666666664
+              },
+              "Application.html#launch": {
+                "ref": "Application.html#launch",
+                "tf": 16.666666666666664
+              }
+            }
+          },
           "r": {
             "docs": {},
             "i": {
@@ -2464,7 +2602,7 @@
           }
         }
       },
-      "length": 124
+      "length": 136
     },
     "corpusTokens": [
       "add",
@@ -2478,7 +2616,9 @@
       "application#deregisterstylesheet",
       "application#getcurrentbreadcrumb",
       "application#initi",
+      "application#launch",
       "application#medi",
+      "application#navig",
       "application#registermedi",
       "application#registerstylesheet",
       "application#replacestylesheet",
@@ -2517,6 +2657,7 @@
       "initi",
       "item",
       "kick",
+      "launch",
       "list",
       "list:class",
       "mediat",
@@ -2526,6 +2667,7 @@
       "name",
       "navig",
       "next",
+      "option",
       "present",
       "properti",
       "propertymedi",
@@ -2550,6 +2692,7 @@
       "titl",
       "track",
       "uri",
+      "us",
       "well).a",
       "window"
     ],
@@ -2653,6 +2796,26 @@
       "tags": "Application#title title",
       "summary": "",
       "description": "The Window title"
+    },
+    "Application.html#navigate": {
+      "id": "Application.html#navigate",
+      "kind": "function",
+      "title": "navigate( where, options )",
+      "longname": "Application#navigate",
+      "name": "navigate",
+      "tags": "Application#navigate navigate",
+      "summary": "",
+      "description": "Navigate using the router"
+    },
+    "Application.html#launch": {
+      "id": "Application.html#launch",
+      "kind": "function",
+      "title": "launch( where, options )",
+      "longname": "Application#launch",
+      "name": "launch",
+      "tags": "Application#launch launch",
+      "summary": "",
+      "description": "Launch using the router"
     },
     "Application.html#initialize": {
       "id": "Application.html#initialize",

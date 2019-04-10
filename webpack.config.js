@@ -1,16 +1,16 @@
-const path = require('path');
-const webpack = require('webpack');
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   context: __dirname,
   target: "web",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'presentation-application.js',
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, "dist"),
+    filename: "presentation-application.js",
+    publicPath: "/dist/",
     library: "presentation-application",
-    globalObject: 'this',
+    globalObject: "this",
     libraryTarget: "umd",
     umdNamedDefine: true
   },
@@ -26,17 +26,23 @@ module.exports = {
     ]
   },
   externals: {
-    'next-core-application': {
-      commonjs: 'next-core-application',
-      commonjs2: 'next-core-application',
-      amd: 'next-core-application',
-      root: 'next-core-application'
+    "next-core-application": {
+      commonjs: "next-core-application",
+      commonjs2: "next-core-application",
+      amd: "next-core-application",
+      root: "next-core-application"
     },
-    'next-core-structures': {
-      commonjs: 'next-core-structures',
-      commonjs2: 'next-core-structures',
-      amd: 'next-core-structures',
-      root: 'next-core-structures'
+    "next-core-structures": {
+      commonjs: "next-core-structures",
+      commonjs2: "next-core-structures",
+      amd: "next-core-structures",
+      root: "next-core-structures"
+    },
+    "presentation-router": {
+      commonjs: "presentation-router",
+      commonjs2: "presentation-router",
+      amd: "presentation-router",
+      root: "presentation-router"
     }
   },
   stats: "errors-only",

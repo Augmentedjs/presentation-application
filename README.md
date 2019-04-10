@@ -10,24 +10,28 @@ Augmented.js Presentation Application Module
 
 -   [Application](#application)
     -   [Parameters](#parameters)
+    -   [navigate](#navigate)
+        -   [Parameters](#parameters-1)
+    -   [launch](#launch)
+        -   [Parameters](#parameters-2)
     -   [initialize](#initialize)
     -   [router](#router)
     -   [registerMediator](#registermediator)
-        -   [Parameters](#parameters-1)
+        -   [Parameters](#parameters-3)
     -   [deregisterMediator](#deregistermediator)
-        -   [Parameters](#parameters-2)
+        -   [Parameters](#parameters-4)
     -   [mediators](#mediators)
         -   [Properties](#properties)
     -   [registerStylesheet](#registerstylesheet)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-5)
     -   [deregisterStylesheet](#deregisterstylesheet)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-6)
     -   [attachStylesheets](#attachstylesheets)
     -   [replaceStylesheets](#replacestylesheets)
     -   [stylesheets](#stylesheets)
         -   [Properties](#properties-1)
     -   [setCurrentBreadcrumb](#setcurrentbreadcrumb)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-7)
     -   [getCurrentBreadcrumb](#getcurrentbreadcrumb)
     -   [breadcrumbs](#breadcrumbs)
         -   [Properties](#properties-2)
@@ -55,6 +59,24 @@ Applications contain a few built-in items:
 ### Parameters
 
 -   `name`  
+
+### navigate
+
+Navigate using the router
+
+#### Parameters
+
+-   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
+-   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
+
+### launch
+
+Launch using the router
+
+#### Parameters
+
+-   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
+-   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
 
 ### initialize
 
