@@ -14,24 +14,26 @@ Augmented.js Presentation Application Module
         -   [Parameters](#parameters-1)
     -   [launch](#launch)
         -   [Parameters](#parameters-2)
+    -   [redirect](#redirect)
+        -   [Parameters](#parameters-3)
     -   [initialize](#initialize)
     -   [router](#router)
     -   [registerMediator](#registermediator)
-        -   [Parameters](#parameters-3)
-    -   [deregisterMediator](#deregistermediator)
         -   [Parameters](#parameters-4)
+    -   [deregisterMediator](#deregistermediator)
+        -   [Parameters](#parameters-5)
     -   [mediators](#mediators)
         -   [Properties](#properties)
     -   [registerStylesheet](#registerstylesheet)
-        -   [Parameters](#parameters-5)
-    -   [deregisterStylesheet](#deregisterstylesheet)
         -   [Parameters](#parameters-6)
+    -   [deregisterStylesheet](#deregisterstylesheet)
+        -   [Parameters](#parameters-7)
     -   [attachStylesheets](#attachstylesheets)
     -   [replaceStylesheets](#replacestylesheets)
     -   [stylesheets](#stylesheets)
         -   [Properties](#properties-1)
     -   [setCurrentBreadcrumb](#setcurrentbreadcrumb)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-8)
     -   [getCurrentBreadcrumb](#getcurrentbreadcrumb)
     -   [breadcrumbs](#breadcrumbs)
         -   [Properties](#properties-2)
@@ -77,6 +79,14 @@ Launch using the router
 
 -   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
 -   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
+
+### redirect
+
+Redirect using the browser
+
+#### Parameters
+
+-   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
 
 ### initialize
 

@@ -1,5 +1,5 @@
 import { Application as NextApplication } from "next-core-application";
-import serialize from "presentation-router";
+import { serialize } from "presentation-router";
 import { Stack } from "next-core-structures";
 
 const getPlace = (where, options) => {
@@ -40,7 +40,7 @@ class Application extends NextApplication {
     } else {
       console.warn("Can't navigate to nowhere.");
     }
-    return null;
+    return this;
   };
   /**
    * Launch using the router
@@ -53,7 +53,21 @@ class Application extends NextApplication {
     } else {
       console.warn("Can't launch nowhere.");
     }
-    return null;
+    return this;
+  };
+
+  /**
+   * Redirect using the browser
+   * @param {string} where Where to go
+   */
+  redirect(where) {
+    if (where) {
+      this.router.cleanup();
+      window.location = where;
+    } else {
+      console.warn("Can't redirect to nowhere.");
+    }
+    return this;
   };
 
   /**

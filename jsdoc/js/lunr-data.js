@@ -141,6 +141,13 @@ window.lunrData = {
           "router",
           "us"
         ],
+        "Application.html#redirect": [
+          "application#redirect",
+          "browser",
+          "function",
+          "redirect",
+          "us"
+        ],
         "Application.html#initialize": [
           "add",
           "application#initi",
@@ -216,7 +223,7 @@ window.lunrData = {
           "getcurrentbreadcrumb"
         ]
       },
-      "length": 20
+      "length": 21
     },
     "tokenStore": {
       "root": {
@@ -399,6 +406,29 @@ window.lunrData = {
                                   },
                                   "e": {
                                     "docs": {},
+                                    "d": {
+                                      "docs": {},
+                                      "i": {
+                                        "docs": {},
+                                        "r": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "c": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {
+                                                  "Application.html#redirect": {
+                                                    "ref": "Application.html#redirect",
+                                                    "tf": 1150
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
                                     "g": {
                                       "docs": {},
                                       "i": {
@@ -1603,6 +1633,29 @@ window.lunrData = {
                 }
               }
             },
+            "d": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "Application.html#redirect": {
+                            "ref": "Application.html#redirect",
+                            "tf": 766.6666666666666
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "p": {
               "docs": {},
               "l": {
@@ -2183,6 +2236,26 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "o": {
+              "docs": {},
+              "w": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "Application.html#redirect": {
+                          "ref": "Application.html#redirect",
+                          "tf": 16.666666666666664
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
           "u": {
@@ -2290,6 +2363,10 @@ window.lunrData = {
                           },
                           "Application.html#launch": {
                             "ref": "Application.html#launch",
+                            "tf": 110
+                          },
+                          "Application.html#redirect": {
+                            "ref": "Application.html#redirect",
                             "tf": 110
                           },
                           "Application.html#initialize": {
@@ -2586,6 +2663,10 @@ window.lunrData = {
               "Application.html#launch": {
                 "ref": "Application.html#launch",
                 "tf": 16.666666666666664
+              },
+              "Application.html#redirect": {
+                "ref": "Application.html#redirect",
+                "tf": 16.666666666666664
               }
             }
           },
@@ -2602,7 +2683,7 @@ window.lunrData = {
           }
         }
       },
-      "length": 136
+      "length": 141
     },
     "corpusTokens": [
       "add",
@@ -2619,6 +2700,7 @@ window.lunrData = {
       "application#launch",
       "application#medi",
       "application#navig",
+      "application#redirect",
       "application#registermedi",
       "application#registerstylesheet",
       "application#replacestylesheet",
@@ -2631,6 +2713,7 @@ window.lunrData = {
       "augmented.applicationadd",
       "augmented.j",
       "breadcrumb",
+      "browser",
       "built",
       "class",
       "contain",
@@ -2672,6 +2755,7 @@ window.lunrData = {
       "properti",
       "propertymedi",
       "readm",
+      "redirect",
       "regist",
       "registermedi",
       "registerstylesheet",
@@ -2816,6 +2900,16 @@ window.lunrData = {
       "tags": "Application#launch launch",
       "summary": "",
       "description": "Launch using the router"
+    },
+    "Application.html#redirect": {
+      "id": "Application.html#redirect",
+      "kind": "function",
+      "title": "redirect( where )",
+      "longname": "Application#redirect",
+      "name": "redirect",
+      "tags": "Application#redirect redirect",
+      "summary": "",
+      "description": "Redirect using the browser"
     },
     "Application.html#initialize": {
       "id": "Application.html#initialize",
