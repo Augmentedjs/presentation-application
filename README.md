@@ -60,7 +60,7 @@ Applications contain a few built-in items:
 
 ### Parameters
 
--   `name`  
+-   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
 
 ### navigate
 

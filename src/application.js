@@ -20,10 +20,11 @@ const getPlace = (where, options) => {
  * <li>breadcrumbs for tracking navigations</li>
  * </ul>
  * @extends Augmented.Application
+ * @param {Object} options Options to pass
  */
 class Application extends NextApplication {
-  constructor(name) {
-    super(name);
+  constructor(options) {
+    super(options);
     this._router = null;
     this._mediators = [];
     this._stylesheets = [];
