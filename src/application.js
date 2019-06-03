@@ -25,7 +25,6 @@ const getPlace = (where, options) => {
 class Application extends NextApplication {
   constructor(options) {
     super(options);
-    this._router = null;
     this._mediators = [];
     this._stylesheets = [];
     this._breadcrumb = new Stack();
