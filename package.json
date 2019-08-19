@@ -1,6 +1,6 @@
 {
   "name": "presentation-application",
-  "version": "2.8.1",
+  "version": "2.8.2",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-application.js",
   "scripts": {
