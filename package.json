@@ -1,6 +1,6 @@
 {
   "name": "presentation-application",
-  "version": "2.8.2",
+  "version": "2.8.3",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-application.js",
   "scripts": {
@@ -46,7 +46,7 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "next-core-application": "^2.5.3",
+    "next-core-application": "^2.5.4",
     "next-core-structures": "^2.5.3",
     "presentation-router": "^2.6.7"
   },
