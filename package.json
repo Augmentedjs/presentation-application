@@ -26,31 +26,31 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^7.0.0",
     "acorn-dynamic-import": "^4.0.0",
     "ajv-errors": "^1.0.1",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "documentation": "^9.3.1",
-    "eslint": "^5.16.0",
-    "eslint-config-kentcdodds": "^14.3.1",
+    "documentation": "^12.1.1",
+    "eslint": "^6.2.0",
+    "eslint-config-kentcdodds": "^14.3.4",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.5.5",
-    "jsdom": "^14.0.0",
-    "marked": "^0.6.2",
-    "mocha": "^6.1.2",
+    "jsdoc": "^3.6.3",
+    "jsdom": "^15.1.1",
+    "marked": "^0.7.0",
+    "mocha": "^6.2.0",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
   },
   "dependencies": {
     "next-core-application": "^2.5.3",
     "next-core-structures": "^2.5.3",
-    "presentation-router": "^2.6.5"
+    "presentation-router": "^2.6.7"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-application/issues"
