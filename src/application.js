@@ -1,4 +1,4 @@
-import { Application as NextApplication } from "next-core-application";
+import { Application as CoreApplication } from "next-core-application";
 import { serialize } from "presentation-router";
 import { Stack } from "next-core-structures";
 
@@ -19,10 +19,10 @@ const getPlace = (where, options) => {
  * <li>stylesheets</li>
  * <li>breadcrumbs for tracking navigations</li>
  * </ul>
- * @extends Augmented.Application
+ * @extends CoreApplication
  * @param {Object} options Options to pass
  */
-class Application extends NextApplication {
+class Application extends CoreApplication {
   constructor(options) {
     super(options);
     this._mediators = [];

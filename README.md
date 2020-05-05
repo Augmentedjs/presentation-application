@@ -42,7 +42,7 @@ Augmented.js Presentation Application Module
 
 ## Application
 
-**Extends Augmented.Application**
+**Extends CoreApplication**
 
 Presentation Application - extension of Augmented.Application&lt;/br/>
 Add registration of mediators to the application, breadcrumbs, and stylesheet registration
