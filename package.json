@@ -1,6 +1,6 @@
 {
   "name": "presentation-application",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-application.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "documentation": "^13.0.2",
     "foodoc": "0.0.9",
     "jsdoc": "^3.6.4",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.3.0",
     "mocha": "^8.0.1",
     "mocha-jsdom": "^2.0.0",
     "webpack": "^4.43.0",
@@ -43,7 +43,7 @@
   "dependencies": {
     "next-core-application": "^2.5.4",
     "next-core-structures": "^2.6.0",
-    "presentation-router": "^3.0.0"
+    "presentation-router": "^3.0.1"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-application/issues"
