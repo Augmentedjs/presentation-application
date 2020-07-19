@@ -1,6 +1,6 @@
 {
   "name": "presentation-application",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-application.js",
   "scripts": {
@@ -26,9 +26,9 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.4",
+    "@babel/register": "^7.10.5",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
     "documentation": "^13.0.2",
@@ -43,7 +43,7 @@
   "dependencies": {
     "next-core-application": "^2.5.4",
     "next-core-structures": "^2.6.0",
-    "presentation-router": "^3.0.2"
+    "presentation-router": "^3.0.3"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-application/issues"
