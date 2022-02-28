@@ -8,43 +8,43 @@ Augmented.js Presentation Application Module
 
 ### Table of Contents
 
--   [Application](#application)
-    -   [Parameters](#parameters)
-    -   [navigate](#navigate)
-        -   [Parameters](#parameters-1)
-    -   [launch](#launch)
-        -   [Parameters](#parameters-2)
-    -   [redirect](#redirect)
-        -   [Parameters](#parameters-3)
-    -   [initialize](#initialize)
-    -   [router](#router)
-    -   [registerMediator](#registermediator)
-        -   [Parameters](#parameters-4)
-    -   [deregisterMediator](#deregistermediator)
-        -   [Parameters](#parameters-5)
-    -   [mediators](#mediators)
-        -   [Properties](#properties)
-    -   [registerStylesheet](#registerstylesheet)
-        -   [Parameters](#parameters-6)
-    -   [deregisterStylesheet](#deregisterstylesheet)
-        -   [Parameters](#parameters-7)
-    -   [attachStylesheets](#attachstylesheets)
-    -   [replaceStylesheets](#replacestylesheets)
-    -   [stylesheets](#stylesheets)
-        -   [Properties](#properties-1)
-    -   [setCurrentBreadcrumb](#setcurrentbreadcrumb)
-        -   [Parameters](#parameters-8)
-    -   [getCurrentBreadcrumb](#getcurrentbreadcrumb)
-    -   [breadcrumbs](#breadcrumbs)
-        -   [Properties](#properties-2)
-    -   [title](#title)
-        -   [Properties](#properties-3)
+*   [Application](#application)
+    *   [Parameters](#parameters)
+    *   [navigate](#navigate)
+        *   [Parameters](#parameters-1)
+    *   [launch](#launch)
+        *   [Parameters](#parameters-2)
+    *   [redirect](#redirect)
+        *   [Parameters](#parameters-3)
+    *   [initialize](#initialize)
+    *   [router](#router)
+    *   [registerMediator](#registermediator)
+        *   [Parameters](#parameters-4)
+    *   [deregisterMediator](#deregistermediator)
+        *   [Parameters](#parameters-5)
+    *   [mediators](#mediators)
+        *   [Properties](#properties)
+    *   [registerStylesheet](#registerstylesheet)
+        *   [Parameters](#parameters-6)
+    *   [deregisterStylesheet](#deregisterstylesheet)
+        *   [Parameters](#parameters-7)
+    *   [attachStylesheets](#attachstylesheets)
+    *   [replaceStylesheets](#replacestylesheets)
+    *   [stylesheets](#stylesheets)
+        *   [Properties](#properties-1)
+    *   [setCurrentBreadcrumb](#setcurrentbreadcrumb)
+        *   [Parameters](#parameters-8)
+    *   [getCurrentBreadcrumb](#getcurrentbreadcrumb)
+    *   [breadcrumbs](#breadcrumbs)
+        *   [Properties](#properties-2)
+    *   [title](#title)
+        *   [Properties](#properties-3)
 
 ## Application
 
 **Extends CoreApplication**
 
-Presentation Application - extension of Augmented.Application&lt;/br/>
+Presentation Application - extension of Augmented.Application\</br/>
 Add registration of mediators to the application, breadcrumbs, and stylesheet registration
 The Application is a container for the 'app'. This allows control of the flow application init, routing, and starting.
 Applications can include API to add app-globals like datastores, and mediators.
@@ -60,7 +60,7 @@ Applications contain a few built-in items:
 
 ### Parameters
 
--   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
+*   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
 
 ### navigate
 
@@ -68,8 +68,8 @@ Navigate using the router
 
 #### Parameters
 
--   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
--   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
+*   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
+*   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
 
 ### launch
 
@@ -77,8 +77,8 @@ Launch using the router
 
 #### Parameters
 
--   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
--   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
+*   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
+*   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
 
 ### redirect
 
@@ -86,7 +86,7 @@ Redirect using the browser
 
 #### Parameters
 
--   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
+*   `where` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Where to go
 
 ### initialize
 
@@ -102,7 +102,7 @@ Register a Mediator
 
 #### Parameters
 
--   `mediator` **Mediator** The mediator to register
+*   `mediator` **Mediator** The mediator to register
 
 ### deregisterMediator
 
@@ -110,7 +110,7 @@ Deregister a Mediator
 
 #### Parameters
 
--   `mediator` **Mediator** The mediator to deregister
+*   `mediator` **Mediator** The mediator to deregister
 
 ### mediators
 
@@ -118,7 +118,7 @@ All Mediators
 
 #### Properties
 
--   `mediators` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** all Mediators
+*   `mediators` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** all Mediators
 
 ### registerStylesheet
 
@@ -126,8 +126,8 @@ Register a stylesheet
 
 #### Parameters
 
--   `s`  
--   `stylesheet` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** URI of the stylesheet
+*   `s`  
+*   `stylesheet` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** URI of the stylesheet
 
 ### deregisterStylesheet
 
@@ -135,8 +135,8 @@ Deregister a stylesheet
 
 #### Parameters
 
--   `s`  
--   `stylesheet` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** URI of the stylesheet
+*   `s`  
+*   `stylesheet` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** URI of the stylesheet
 
 ### attachStylesheets
 
@@ -152,7 +152,7 @@ All Stylesheets
 
 #### Properties
 
--   `stylesheets` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** all stylesheets
+*   `stylesheets` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** all stylesheets
 
 ### setCurrentBreadcrumb
 
@@ -160,8 +160,8 @@ Sets the current breadcrumb
 
 #### Parameters
 
--   `uri` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The URI of the breadcrumb
--   `name` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the breadcrumb
+*   `uri` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The URI of the breadcrumb
+*   `name` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the breadcrumb
 
 ### getCurrentBreadcrumb
 
@@ -175,7 +175,7 @@ The breadcrumbs
 
 #### Properties
 
--   `breadcrumbs` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** alls the breadcrumbs
+*   `breadcrumbs` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** alls the breadcrumbs
 
 ### title
 
@@ -183,4 +183,4 @@ The Window title
 
 #### Properties
 
--   `title` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** title of the window
+*   `title` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** title of the window
